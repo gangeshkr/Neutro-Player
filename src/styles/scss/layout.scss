@@ -1,0 +1,60 @@
+@use "./color.scss" as color;
+@use "./mixin.scss" as layout;
+@use "./size.scss" as size;
+
+.primary-btn {
+    @include layout.btn_style;
+    background-color: color.$primary_color;
+    color: color.$background_color;
+    border: size.$btn_border_width solid color.$primary_color;
+
+    &:hover {
+        background-color: color.$btn_secondary_bg;
+        color: color.$primary_color;
+        border: size.$btn_border_width solid color.$primary_color;
+    }
+
+    &:focus {
+        outline: none;
+    }
+    &:disabled {
+        outline: none;
+        cursor: not-allowed;
+    }
+}
+
+.secondary-btn {
+    @include layout.btn_style;
+    background-color: color.$background_color;
+    color: color.$primary_color;
+    border: size.$btn_border_width solid color.$primary_color;
+
+    &:hover {
+        background-color: color.$primary_color;
+        color: color.$background_color;
+        border: size.$btn_border_width solid color.$primary_color;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.form-label {
+    @include layout.input_label_style;
+}
+
+.custom-form-input {
+    @include layout.form_input_style;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.78px;
+    text-align: left;
+    margin-top: 25px
+}
+
+.custom-form-notEditable {
+    @include layout.form_input_style;
+    border: none;
+}

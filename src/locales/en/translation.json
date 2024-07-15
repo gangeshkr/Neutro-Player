@@ -1,0 +1,27 @@
+{
+  "welcome": "Welcome Back!",
+  "pricing": "Pricing",
+  "faqs": "FAQ's",
+  "contactUs": "Contact Us",
+  "howItWorks": "How it works",
+  "freeTrials": "Free trials",
+  "loginSignUp": "Login/Sign Up",
+  "joinTelegram": "Join Telegram",
+  "loginHeader" : "Get Rebranded Neutro Player APK",
+  "loginHeaderMessage": "The latest version directly from developers. stop losing your users and get rid of illegally cracked buggy rebranded app from cheap rebranders.",
+  "disclaimer": "Discliamer",
+  "disclaimerText": " we are only providing the app development service and have no any kind of connection for content: we are not responsible for any kind of use of developed app. Use it only according to the local laws in your country",
+  "credsText": " Enter Your Credentials to access your account",
+  "signUp": "Don’t have an account? ",
+  "signIn": "Already have an account? ",
+  "agree":"I agree with our ",
+  "tnc": "terms and conditions",
+  "subscribe": "Subscribe for New update news",
+  "signU" : "Sign Up",
+  "logIn" : "Log In",
+  "forgot": "Forgot Password?",
+
+  "recover": "Recover Password",
+  "recoverEmail": "Enter your Email address to get resend password link",
+  "getLink" : "Get Link"
+}
