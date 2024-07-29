@@ -58,3 +58,13 @@
     @include layout.form_input_style;
     border: none;
 }
+
+.custom-form-input1 {
+    @include layout.form_input_style;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.78px;
+    text-align: left;
+    background-color: color.$form_input_bg;
+}

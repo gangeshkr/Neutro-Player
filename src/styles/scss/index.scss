@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   background-color: color.$background_color;
   z-index: 1000;
+  height: 57px;
 }
 
 .errTxt {
@@ -389,6 +390,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: column;
   margin-left: 300px;
+  margin-bottom: 90px;
 }
 
 .home-layout{
@@ -397,17 +399,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 .home-title{
   font-family: Raleway;
-font-size: 22px;
-line-height: 25.83px;
+  font-size: 22px;
+  line-height: 25.83px;
 }
 
 .form-layout{
-  height: 70vh;
+  height: auto;
   padding: 40px;
   border: 1px solid color.$border_primary_color;
   border-radius: 15px;
   background-color: color.$background_color;
-  margin-bottom: 90px;
+  // margin-bottom: 90px;
 
   .app-label{
     font-family: Raleway;
@@ -421,4 +423,72 @@ line-height: 25.83px;
   border: 1px solid color.$border_primary_color;
   border-radius: 15px;
   background-color: color.$file-upload;
+}
+
+.portal-icons{
+  position: absolute;
+  left: 90%;
+}
+
+.plan-card{
+  height: 506px;
+  border: 2px solid color.$border_primary_color;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: color.$background_color;
+  display: flex;
+  flex-direction: column;
+
+  .plan-label{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.48px;
+    text-align: left;
+  }
+  .plan-price{
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 34.05px;
+    text-align: left;
+  }
+  .plan-content{
+    min-height: 300px;
+  }
+}
+
+.App-RequestApp{
+  height: auto;
+  padding: 40px;
+  border: 1px solid color.$border_primary_color;
+  border-radius: 15px;
+  background-color: color.$background_color;
+}
+
+.primary-color{
+  color: color.$primary_color
+}
+
+.request-app{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.13px;
+  text-align: center;
+}
+
+.request-app-card{
+  padding: 15px 20px;
+  border: 1px solid color.$border_primary_color;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.small-para{
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.44px;
+  text-align: center;
 }
